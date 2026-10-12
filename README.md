@@ -1,10 +1,5 @@
 # ⚡ GoodWe Smart Charging Station
 
-![MicroPython](https://img.shields.io/badge/MicroPython-2B2728?style=for-the-badge&logo=micropython&logoColor=white)
-![Raspberry Pi Pico](https://img.shields.io/badge/Raspberry%20Pi%20Pico-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white)
-![Wokwi](https://img.shields.io/badge/Simulado%20no-Wokwi-0F8A5F?style=for-the-badge)
-![FIAP](https://img.shields.io/badge/FIAP-Sprint%204-ED145B?style=for-the-badge)
-
 **Estação inteligente de recarga de veículos elétricos** simulada no Wokwi com **Raspberry Pi Pico** e **MicroPython**, desenvolvida para a **Sprint 4 da disciplina de Arquitetura de Computadores (FIAP × GoodWe)**.
 
 O sistema recebe a energia disponível, compara com a demanda de **3 veículos elétricos conectados ao mesmo tempo** e decide automaticamente quanta potência cada um recebe. O projeto é inspirado no conceito do **GoodWe Smart Energy Controller**.
@@ -27,7 +22,7 @@ O sistema recebe a energia disponível, compara com a demanda de **3 veículos e
 12. [Representação de dados](#-representação-de-dados)
 13. [Relação com a GoodWe](#-relação-com-o-goodwe-smart-energy-controller)
 14. [Estrutura do repositório](#-estrutura-do-repositório)
-15. [Como executar](#️-como-executar)
+15. [Como executar](#-como-executar)
 16. [Melhorias futuras](#-melhorias-futuras)
 
 ---
@@ -36,17 +31,18 @@ O sistema recebe a energia disponível, compara com a demanda de **3 veículos e
 
 | Nome | RM |
 |---|---|
-| NOME COMPLETO | RM00000 |
-| NOME COMPLETO | RM00000 |
-| NOME COMPLETO | RM00000 |
-| NOME COMPLETO | RM00000 |
+| Gustavo Bitencourt | RM568885 |
+| Daniel Vieira | RM573326 |
+| Leonardo Takachi | RM569066 |
+| Giovane Salazar | RM570396 |
 
 ## 🔗 Links
 
 | | |
 |---|---|
-| 🧪 **Simulação no Wokwi** | COLE_AQUI_O_LINK_DO_WOKWI |
-| 🎥 **Vídeo de demonstração** | COLE_AQUI_O_LINK_DO_YOUTUBE |
+| 🧪 **Simulação no Wokwi** | https://wokwi.com/projects/477698108284517377 |
+| 🎥 **Vídeo de demonstração** | https://youtu.be/xP5sg682yL8 |
+| 💻 **Repositório no GitHub** | https://github.com/GustavoBitencourtLopes/GoodWe-Smart-Charging-Station |
 
 ---
 
@@ -121,7 +117,7 @@ CEN 1 (8000 W)  →  CEN 2 (5000 W)  →  CEN 3 (2000 W)  →  SOLAR (potenciôm
 
 ---
 
-## 🏗️ Arquitetura do sistema
+## 🧱 Arquitetura do sistema
 
 ```mermaid
 flowchart TD
@@ -471,7 +467,7 @@ GoodWe-Smart-Charging-Station/
 
 ---
 
-## ▶️ Como executar
+## 🚀 Como executar
 
 ### Pelo link (mais fácil)
 1. Abra o link do Wokwi na seção [Links](#-links).
@@ -487,7 +483,7 @@ GoodWe-Smart-Charging-Station/
 
 ---
 
-## 🚀 Melhorias futuras
+## 💡 Melhorias futuras
 
 - Simular o carregamento das baterias ao longo do tempo, com a prioridade sendo recalculada automaticamente.
 - Permitir que o usuário escolha a prioridade (por bateria, por ordem de chegada ou por tarifa).
